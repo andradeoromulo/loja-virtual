@@ -18,6 +18,9 @@
     		<!-- Essa propriedade garante que o SQL gerado pelo Hibernate seja logado -->
     		<property name="hibernate.show_sql" value="true"/>
     		
+    		<!-- Essa propriedade faz com que o SQL logado seja formatado para maior legibilidade -->
+    		<property name="hibernate.format_sql" value="true"/>
+    		
     		<!-- Essa propriedade faz com que o Hibernate crie as tabelas automaticamente para nós. Value pode ser create, create-drop, update e  validate -->
     		<property name="hibernate.hbm2ddl.auto" value="update"/>
     	
