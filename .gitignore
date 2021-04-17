@@ -8,3 +8,15 @@ dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
 .mvn/wrapper/maven-wrapper.jar
+
+#IntelliJ project files
+*.iml
+*.iws
+*.ipr
+.idea/
+
+#Eclipse project file
+.settings/
+.classpath
+.project
+
