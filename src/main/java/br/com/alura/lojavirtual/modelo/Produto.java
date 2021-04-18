@@ -8,6 +8,7 @@ import javax.persistence.*;
 // Mapeando uma entidade
 @Entity
 @Table(name = "produtos")
+@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
 public class Produto {
 	
 	@Id
